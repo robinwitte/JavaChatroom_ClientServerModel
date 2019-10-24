@@ -1,0 +1,37 @@
+[12:25] Server socket started on port 1234.
+[12:25] [NEW_USER] robin
+[12:25] --> robin [SENDMESSAGE] /success
+[12:25] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[12:26] [NEW_USER] klaus
+[12:26] --> klaus [SENDMESSAGE] /success
+[12:26] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[12:26] --> robin [SENDMESSAGE] *** klaus entered the room <default> ***
+[12:26] --> klaus [SENDMESSAGE] #robin#Hallo
+[12:26] --> robin [SENDMESSAGE] #klaus#klaus: Hallo
+[12:26] --> klaus [SENDMESSAGE] #robin#robin: /prvquit
+[12:26] --> klaus [SENDMESSAGE] #robin#Hallo
+[12:26] --> robin [SENDMESSAGE] #klaus#klaus: Hallo
+[12:26] --> robin [SENDMESSAGE] #klaus#HUHU
+[12:26] --> klaus [SENDMESSAGE] #robin#robin: HUHU
+[12:26] --> karlotta [SENDMESSAGE] You are banned.
+[12:26] --> simon [SENDMESSAGE] The username exists already.
+[12:26] [NEW_USER] simon
+[12:26] --> simon [SENDMESSAGE] /success
+[12:26] --> simon [SENDMESSAGE] ---------- Welcome to the room '<default>' simon! ----------
+[12:26] --> robin [SENDMESSAGE] *** simon entered the room <default> ***
+[12:26] --> klaus [SENDMESSAGE] *** simon entered the room <default> ***
+[12:27] --> klaus [SENDMESSAGE] #simon#Hallo
+[12:27] --> simon [SENDMESSAGE] #klaus#klaus: Hallo
+[12:27] --> simon [SENDMESSAGE] #klaus#Hallo
+[12:27] --> klaus [SENDMESSAGE] #simon#simon: Hallo
+[12:27] --> klaus [SENDMESSAGE] #simon#simon: /prvquit
+[12:27] --> klaus [SENDMESSAGE] #robin#robin: /prvquit
+[12:27] --> robin [SENDMESSAGE] /quitFromServer
+[12:27] --> klaus [SENDMESSAGE] /quitFromServer
+[12:27] <-- robin [DO_QUIT]
+[12:27] <-- klaus [DO_QUIT]
+[12:27] --> simon [SENDMESSAGE] /quitFromServer
+[12:27] --> klaus [SENDMESSAGE] *** robin is leaving the room <default> ***
+[12:27] <-- simon [DO_QUIT]
+[12:27] --> robin [SENDMESSAGE] *** klaus is leaving the room <default> ***
+[12:27] Server socket closed.

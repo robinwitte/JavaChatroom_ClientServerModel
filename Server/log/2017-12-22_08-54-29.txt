@@ -1,0 +1,13 @@
+[8:54] Server socket started on port 1234.
+[8:55] [NEW_USER] robin
+[8:55] --> robin [SENDMESSAGE] /success
+[8:55] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[8:55] <-- robin [DO_CHANGEROOM] <default> to Uni-Jena
+[8:55] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[8:55] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Uni-Jena' robin! ----------
+[8:55] --> robin [DONE_CHANGEROOM] Uni-Jena
+[8:56] <-- robin [DO_QUIT]
+[8:56] --> robin [SENDMESSAGE] *** Bye robin ***
+[8:56] [USER_LEAVE] robin
+[8:56] --> robin [SENDMESSAGE] /quit
+[8:56] Server socket closed.

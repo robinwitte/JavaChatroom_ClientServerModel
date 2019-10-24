@@ -1,0 +1,102 @@
+[14:52] Server socket started on port 1234.
+[14:52] -->  [SENDMESSAGE] /quit
+[14:53] --> rrobin [SENDMESSAGE] Wrong username or password.
+[14:53] [NEW_USER] robin
+[14:53] --> robin [SENDMESSAGE] /success
+[14:53] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[14:53] <-- robin [DO_QUIT]
+[14:53] --> robin [SENDMESSAGE] *** Bye robin ***
+[14:53] [USER_LEAVE] robin
+[14:53] --> robin [SENDMESSAGE] /quit
+[14:53] -->  [SENDMESSAGE] /quit
+[14:57] --> rrro [SENDMESSAGE] Wrong username or password.
+[14:57] [NEW_USER] robin
+[14:57] --> robin [SENDMESSAGE] /success
+[14:57] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[14:57] [NEW_USER] klaus
+[14:57] --> klaus [SENDMESSAGE] /success
+[14:57] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[14:57] --> robin [SENDMESSAGE] *** klaus entered the room <default> ***
+[14:58] <-- klaus [DO_CHANGEROOM] <default> to Uni-Jena
+[14:58] --> robin [SENDMESSAGE] *** klaus is leaving the room <default> ***
+[14:58] --> klaus [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[14:58] --> klaus [SENDMESSAGE] ---------- Welcome to the room 'Uni-Jena' klaus! ----------
+[14:58] --> klaus [DONE_CHANGEROOM] Uni-Jena
+[14:58] <-- robin [DO_CHANGEROOM] <default> to Informatik
+[14:58] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[14:58] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Informatik' robin! ----------
+[14:58] --> robin [DONE_CHANGEROOM] Informatik
+[14:58] <-- robin [DO_CHANGEROOM] Informatik to Uni-Jena
+[14:58] --> robin [SENDMESSAGE] ---------- You left the room 'Informatik'. -----------
+[14:58] --> klaus [SENDMESSAGE] *** robin entered the room Uni-Jena ***
+[14:58] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Uni-Jena' robin! ----------
+[14:58] --> robin [DONE_CHANGEROOM] Uni-Jena
+[14:58] <-- robin [DO_CHANGEROOM] Uni-Jena to Informatik
+[14:58] --> klaus [SENDMESSAGE] *** robin is leaving the room Uni-Jena ***
+[14:58] --> robin [SENDMESSAGE] ---------- You left the room 'Uni-Jena'. -----------
+[14:58] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Informatik' robin! ----------
+[14:58] --> robin [DONE_CHANGEROOM] Informatik
+[14:58] <-- robin [DO_CHANGEROOM] Informatik to Uni-Jena
+[14:58] --> robin [SENDMESSAGE] ---------- You left the room 'Informatik'. -----------
+[14:58] --> klaus [SENDMESSAGE] *** robin entered the room Uni-Jena ***
+[14:58] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Uni-Jena' robin! ----------
+[14:58] --> robin [DONE_CHANGEROOM] Uni-Jena
+[14:58] <-- robin [DO_SENDMESSAGETOROOM] Hallo
+[14:58] --> klaus [SENDMESSAGE] robin: Hallo
+[14:58] --> robin [SENDMESSAGE] Hallo
+[14:58] <-- klaus [DO_SENDMESSAGETOROOM] HUHU
+[14:58] --> robin [SENDMESSAGE] klaus: HUHU
+[14:58] --> klaus [SENDMESSAGE] HUHU
+[14:58] <-- klaus [DO_CHANGEROOM] Uni-Jena to Programming
+[14:58] --> robin [SENDMESSAGE] *** klaus is leaving the room Uni-Jena ***
+[14:58] --> klaus [SENDMESSAGE] ---------- You left the room 'Uni-Jena'. -----------
+[14:58] --> klaus [SENDMESSAGE] ---------- Welcome to the room 'Programming' klaus! ----------
+[14:58] --> klaus [DONE_CHANGEROOM] Programming
+[14:58] <-- robin [DO_CHANGEROOM] Uni-Jena to Programming
+[14:58] --> robin [SENDMESSAGE] ---------- You left the room 'Uni-Jena'. -----------
+[14:58] --> klaus [SENDMESSAGE] *** robin entered the room Programming ***
+[14:58] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Programming' robin! ----------
+[14:58] --> robin [DONE_CHANGEROOM] Programming
+[14:58] <-- klaus [DO_QUIT]
+[14:58] --> robin [SENDMESSAGE] *** klaus is leaving the room Programming ***
+[14:58] --> klaus [SENDMESSAGE] *** Bye klaus ***
+[14:58] [USER_LEAVE] klaus
+[14:58] --> klaus [SENDMESSAGE] /quit
+[14:59] <-- robin [DO_CHANGEROOM] Programming to Fuck It
+[14:59] --> robin [SENDMESSAGE] ---------- You left the room 'Programming'. -----------
+[14:59] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Fuck It' robin! ----------
+[14:59] --> robin [DONE_CHANGEROOM] Fuck It
+[14:59] [DO_DELETEROOM] Uni-Jena
+[14:59] [DONE_DELETEROOM] Uni-Jena
+[14:59] [DO_DELETEROOM] Fuck It
+[14:59] --> robin [SENDMESSAGE] *** The server closed the room. You will be transfered to the default Room ***
+[14:59] --> robin [SENDMESSAGE] /roomClosed
+[14:59] [DONE_DELETEROOM] Fuck It
+[14:59] <-- robin [DO_CHANGEROOM] Fuck It to <default>
+[14:59] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[14:59] --> robin [DONE_CHANGEROOM] <default>
+[14:59] [DO_RENAMEROOM] Programming to Hallo
+[14:59] [DONE_RENAMEROOM] Programming to Hallo
+[14:59] <-- robin [DO_CHANGEROOM] <default> to Hallo
+[14:59] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[14:59] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Hallo' robin! ----------
+[14:59] --> robin [DONE_CHANGEROOM] Hallo
+[14:59] [DO_DELETEROOM] Hallo
+[14:59] --> robin [SENDMESSAGE] *** The server closed the room. You will be transfered to the default Room ***
+[14:59] --> robin [SENDMESSAGE] /roomClosed
+[14:59] <-- robin [DO_CHANGEROOM] Hallo to <default>
+[14:59] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[14:59] [DONE_DELETEROOM] Hallo
+[14:59] --> robin [DONE_CHANGEROOM] <default>
+[15:00] [DO_WARNUSER] robin
+[15:00] --> robin [SENDMESSAGE] *** Halt die Fresse ***
+[15:00] [DONE_WARNUSER] robin
+[15:00] [DO_BANUSER] robin
+[15:00] --> robin [SENDMESSAGE] /ban
+[15:00] [DONE_BANUSER] robin
+[15:00] <-- robin [DO_QUIT]
+[15:00] --> robin [SENDMESSAGE] *** Bye robin ***
+[15:00] [USER_LEAVE] robin
+[15:00] --> robin [SENDMESSAGE] /quit
+[15:00] [SHOW_USERDATA]
+[15:00] Server socket closed.

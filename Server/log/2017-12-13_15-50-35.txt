@@ -1,0 +1,45 @@
+[15:50] Server socket started on port 1234.
+[15:50] [DO_CREATEROOM] Hallo
+[15:50] [DONE_CREATEROOM] Hallo
+[15:50] [NEW_USER] robin
+[15:50] --> robin [SENDMESSAGE] /success
+[15:50] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[15:50] <-- robin [DO_CHANGEROOM] <default> to Musiker
+[15:50] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[15:50] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Musiker' robin! ----------
+[15:50] --> robin [DONE_CHANGEROOM] Musiker
+[15:51] [NEW_USER] klaus
+[15:51] --> klaus [SENDMESSAGE] /success
+[15:51] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[15:51] <-- klaus [DO_CHANGEROOM] <default> to Musiker
+[15:51] --> klaus [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[15:51] --> robin [SENDMESSAGE] *** klaus entered the room Musiker ***
+[15:51] --> klaus [SENDMESSAGE] ---------- Welcome to the room 'Musiker' klaus! ----------
+[15:51] --> klaus [DONE_CHANGEROOM] Musiker
+[15:51] <-- klaus [DO_SENDMESSAGETOROOM] Hallo
+[15:51] --> robin [SENDMESSAGE] klaus: Hallo
+[15:51] --> klaus [SENDMESSAGE] Hallo
+[15:51] <-- robin [DO_SENDMESSAGETOROOM] Ji
+[15:51] --> klaus [SENDMESSAGE] robin: Ji
+[15:51] --> robin [SENDMESSAGE] Ji
+[15:51] [DO_DELETEROOM] Programming
+[15:51] [DONE_DELETEROOM] Programming
+[15:51] [DO_DELETEROOM] Musiker
+[15:51] --> robin [SENDMESSAGE] *** The server closed the room. You will be transfered to the default Room ***
+[15:51] --> robin [SENDMESSAGE] /roomClosed
+[15:51] --> klaus [SENDMESSAGE] *** The server closed the room. You will be transfered to the default Room ***
+[15:51] --> klaus [SENDMESSAGE] /roomClosed
+[15:51] <-- robin [DO_CHANGEROOM] Musiker to <default>
+[15:51] [DONE_DELETEROOM] Musiker
+[15:51] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[15:51] <-- klaus [DO_CHANGEROOM] Musiker to <default>
+[15:51] --> robin [SENDMESSAGE] *** klaus entered the room <default> ***
+[15:51] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[15:51] --> klaus [DONE_CHANGEROOM] <default>
+[15:51] <-- klaus [DO_QUIT]
+[15:51] --> robin [SENDMESSAGE] *** klaus is leaving the room <default> ***
+[15:51] --> klaus [SENDMESSAGE] *** Bye klaus ***
+[15:51] [USER_LEAVE] klaus
+[15:51] --> klaus [SENDMESSAGE] /quit
+[15:52] --> robin [SENDMESSAGE] /quitFromServer
+[15:52] Server socket closed.

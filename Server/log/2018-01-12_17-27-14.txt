@@ -1,0 +1,29 @@
+[17:27] Server socket started on port 1234.
+[17:27] [NEW_USER] robin
+[17:27] --> robin [SENDMESSAGE] /success
+[17:27] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[17:29] <-- robin [DO_CHANGEROOM] <default> to Uni-Jena
+[17:29] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[17:29] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Uni-Jena' robin! ----------
+[17:29] --> robin [DONE_CHANGEROOM] Uni-Jena
+[17:30] <-- robin [DO_CHANGEROOM] Uni-Jena to Programming
+[17:30] --> robin [SENDMESSAGE] ---------- You left the room 'Uni-Jena'. -----------
+[17:30] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Programming' robin! ----------
+[17:30] --> robin [DONE_CHANGEROOM] Programming
+[17:30] <-- robin [DO_CHANGEROOM] Programming to Fuck It
+[17:30] --> robin [SENDMESSAGE] ---------- You left the room 'Programming'. -----------
+[17:30] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Fuck It' robin! ----------
+[17:30] --> robin [DONE_CHANGEROOM] Fuck It
+[17:30] <-- robin [DO_CHANGEROOM] Fuck It to Informatik
+[17:30] --> robin [SENDMESSAGE] ---------- You left the room 'Fuck It'. -----------
+[17:30] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Informatik' robin! ----------
+[17:30] --> robin [DONE_CHANGEROOM] Informatik
+[17:30] <-- robin [DO_CHANGEROOM] Informatik to <default>
+[17:30] --> robin [SENDMESSAGE] ---------- You left the room 'Informatik'. -----------
+[17:30] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[17:30] --> robin [DONE_CHANGEROOM] <default>
+[17:34] <-- robin [DO_QUIT]
+[17:34] --> robin [SENDMESSAGE] *** Bye robin ***
+[17:34] [USER_LEAVE] robin
+[17:34] --> robin [SENDMESSAGE] /quit
+[17:34] Server socket closed.

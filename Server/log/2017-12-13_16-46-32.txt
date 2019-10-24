@@ -1,0 +1,29 @@
+[16:46] Server socket started on port 1234.
+[16:46] [DO_CREATEROOM] sdfg
+[16:46] [DONE_CREATEROOM] sdfg
+[16:46] [DO_DELETEROOM] Fuck It
+[16:46] [DONE_DELETEROOM] Fuck It
+[16:46] [NEW_USER] robin
+[16:46] --> robin [SENDMESSAGE] /success
+[16:46] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[16:46] <-- robin [DO_CHANGEROOM] <default> to Musiker
+[16:46] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[16:46] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Musiker' robin! ----------
+[16:46] --> robin [DONE_CHANGEROOM] Musiker
+[16:46] [DO_DELETEROOM] Musiker
+[16:46] --> robin [SENDMESSAGE] *** The server closed the room. You will be transfered to the default Room ***
+[16:46] --> robin [SENDMESSAGE] /roomClosed
+[16:46] [DONE_DELETEROOM] Musiker
+[16:46] <-- robin [DO_CHANGEROOM] Musiker to <default>
+[16:46] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[16:46] --> robin [DONE_CHANGEROOM] <default>
+[16:47] [DO_BANUSER] robin
+[16:47] --> robin [SENDMESSAGE] /ban
+[16:47] [DONE_BANUSER] robin
+[16:47] <-- robin [DO_QUIT]
+[16:47] --> robin [SENDMESSAGE] *** Bye robin ***
+[16:47] [USER_LEAVE] robin
+[16:47] --> robin [SENDMESSAGE] /quit
+[16:47] --> karlotta [SENDMESSAGE] You are banned.
+[16:47] --> karlotta [SENDMESSAGE] /quit
+[16:47] Server socket closed.

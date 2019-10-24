@@ -1,0 +1,79 @@
+[8:48] Server socket started on port 1234.
+[8:48] [DO_DELETEROOM] Fuck It
+[8:48] [DONE_DELETEROOM] Fuck It
+[8:48] [DO_CREATEROOM] kjyxhfiu
+[8:48] [DONE_CREATEROOM] kjyxhfiu
+[8:48] [DO_RENAMEROOM] Programming to Hallo
+[8:48] [DONE_RENAMEROOM] Programming to Hallo
+[8:49] [NEW_USER] robin
+[8:49] --> robin [SENDMESSAGE] /success
+[8:49] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[8:49] [NEW_USER] klaus
+[8:49] --> klaus [SENDMESSAGE] /success
+[8:49] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[8:49] --> robin [SENDMESSAGE] *** klaus entered the room <default> ***
+[8:49] --> karlotta [SENDMESSAGE] You are banned.
+[8:49] [NEW_USER] simon
+[8:49] --> simon [SENDMESSAGE] /success
+[8:49] --> simon [SENDMESSAGE] ---------- Welcome to the room '<default>' simon! ----------
+[8:49] --> robin [SENDMESSAGE] *** simon entered the room <default> ***
+[8:49] --> klaus [SENDMESSAGE] *** simon entered the room <default> ***
+[8:50] <-- klaus [DO_SENDMESSAGETOROOM] hallo
+[8:50] --> robin [SENDMESSAGE] klaus: hallo
+[8:50] --> simon [SENDMESSAGE] klaus: hallo
+[8:50] --> klaus [SENDMESSAGE] hallo
+[8:51] <-- klaus [DO_CHANGEROOM] <default> to Informatik
+[8:51] --> robin [SENDMESSAGE] *** klaus is leaving the room <default> ***
+[8:51] --> simon [SENDMESSAGE] *** klaus is leaving the room <default> ***
+[8:51] --> klaus [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[8:51] --> klaus [SENDMESSAGE] ---------- Welcome to the room 'Informatik' klaus! ----------
+[8:51] --> klaus [DONE_CHANGEROOM] Informatik
+[8:51] <-- klaus [DO_SENDMESSAGETOROOM] Hallo
+[8:51] --> klaus [SENDMESSAGE] Hallo
+[8:51] <-- simon [DO_CHANGEROOM] <default> to Informatik
+[8:51] --> robin [SENDMESSAGE] *** simon is leaving the room <default> ***
+[8:51] --> simon [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[8:51] --> klaus [SENDMESSAGE] *** simon entered the room Informatik ***
+[8:51] --> simon [SENDMESSAGE] ---------- Welcome to the room 'Informatik' simon! ----------
+[8:51] --> simon [DONE_CHANGEROOM] Informatik
+[8:51] <-- klaus [DO_SENDMESSAGETOROOM] Hallo
+[8:51] --> simon [SENDMESSAGE] klaus: Hallo
+[8:51] --> klaus [SENDMESSAGE] Hallo
+[8:51] [DO_WARNUSER] robin
+[8:51] --> robin [SENDMESSAGE] *** Hallo ***
+[8:51] [DONE_WARNUSER] robin
+[8:51] <-- robin [DO_CHANGEROOM] <default> to Musiker
+[8:51] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[8:51] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Musiker' robin! ----------
+[8:51] --> robin [DONE_CHANGEROOM] Musiker
+[8:51] [DO_DELETEROOM] Musiker
+[8:51] --> robin [SENDMESSAGE] *** The server closed the room. You will be transfered to the default Room ***
+[8:51] --> robin [SENDMESSAGE] /roomClosed
+[8:51] [DONE_DELETEROOM] Musiker
+[8:51] <-- robin [DO_CHANGEROOM] Musiker to <default>
+[8:51] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[8:51] --> robin [DONE_CHANGEROOM] <default>
+[8:51] [DO_BANUSER] simon
+[8:51] --> simon [SENDMESSAGE] /ban
+[8:51] [DONE_BANUSER] simon
+[8:51] <-- simon [DO_QUIT]
+[8:51] --> klaus [SENDMESSAGE] *** simon is leaving the room Informatik ***
+[8:51] --> simon [SENDMESSAGE] *** Bye simon ***
+[8:51] [USER_LEAVE] simon
+[8:51] --> simon [SENDMESSAGE] /quit
+[8:52] [SHOW_USERDATA]
+[8:53] <-- robin [DO_CHANGEROOM] <default> to Informatik
+[8:53] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[8:53] --> klaus [SENDMESSAGE] *** robin entered the room Informatik ***
+[8:53] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Informatik' robin! ----------
+[8:53] --> robin [DONE_CHANGEROOM] Informatik
+[8:53] <-- klaus [DO_QUIT]
+[8:53] --> robin [SENDMESSAGE] *** klaus is leaving the room Informatik ***
+[8:53] --> klaus [SENDMESSAGE] *** Bye klaus ***
+[8:53] [USER_LEAVE] klaus
+[8:53] --> klaus [SENDMESSAGE] /quit
+[8:53] <-- robin [DO_QUIT]
+[8:53] --> robin [SENDMESSAGE] *** Bye robin ***
+[8:53] [USER_LEAVE] robin
+[8:53] --> robin [SENDMESSAGE] /quit
+[8:53] Server socket closed.

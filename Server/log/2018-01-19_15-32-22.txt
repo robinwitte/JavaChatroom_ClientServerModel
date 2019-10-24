@@ -1,0 +1,67 @@
+[15:32] Server socket started on port 1234.
+[15:32] [NEW_USER] robin
+[15:32] --> robin [SENDMESSAGE] /success
+[15:32] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[15:32] [NEW_USER] klaus
+[15:32] --> klaus [SENDMESSAGE] /success
+[15:32] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[15:32] --> robin [SENDMESSAGE] *** klaus entered the room <default> ***
+[15:32] --> klaus [SENDMESSAGE] #robin#Hallo robin
+[15:32] --> robin [SENDMESSAGE] #klaus#klaus: Hallo robin
+[15:32] --> robin [SENDMESSAGE] #klaus#asdfhahsdf
+[15:32] --> klaus [SENDMESSAGE] #robin#robin: asdfhahsdf
+[15:32] --> klaus [SENDMESSAGE] #robin#asdfjkasdf
+[15:32] --> robin [SENDMESSAGE] #klaus#klaus: asdfjkasdf
+[15:33] <-- robin [DO_SENDMESSAGETOROOM] dghfg
+[15:33] --> klaus [SENDMESSAGE] robin: dghfg
+[15:33] --> robin [SENDMESSAGE] dghfg
+[15:33] <-- robin [DO_CHANGEROOM] <default> to Programming
+[15:33] --> klaus [SENDMESSAGE] *** robin is leaving the room <default> ***
+[15:33] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[15:33] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Programming' robin! ----------
+[15:33] --> robin [DONE_CHANGEROOM] Programming
+[15:33] <-- robin [DO_CHANGEROOM] Programming to <default>
+[15:33] --> robin [SENDMESSAGE] ---------- You left the room 'Programming'. -----------
+[15:33] --> klaus [SENDMESSAGE] *** robin entered the room <default> ***
+[15:33] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[15:33] --> robin [DONE_CHANGEROOM] <default>
+[15:33] --> klaus [SENDMESSAGE] #robin#robin: /prvquit
+[15:33] <-- robin [DO_QUIT]
+[15:33] --> klaus [SENDMESSAGE] *** robin is leaving the room <default> ***
+[15:33] --> robin [SENDMESSAGE] *** Bye robin ***
+[15:33] [USER_LEAVE] robin
+[15:33] --> robin [SENDMESSAGE] /quit
+[15:33] [NEW_USER] robin
+[15:33] --> robin [SENDMESSAGE] /success
+[15:33] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[15:33] --> klaus [SENDMESSAGE] *** robin entered the room <default> ***
+[15:33] <-- robin [DO_QUIT]
+[15:33] --> klaus [SENDMESSAGE] *** robin is leaving the room <default> ***
+[15:33] --> robin [SENDMESSAGE] *** Bye robin ***
+[15:33] [USER_LEAVE] robin
+[15:33] --> robin [SENDMESSAGE] /quit
+[15:33] <-- klaus [DO_QUIT]
+[15:33] --> klaus [SENDMESSAGE] *** Bye klaus ***
+[15:33] [USER_LEAVE] klaus
+[15:33] --> klaus [SENDMESSAGE] /quit
+[15:33] [NEW_USER] robin
+[15:33] --> robin [SENDMESSAGE] /success
+[15:33] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[15:33] [NEW_USER] klaus
+[15:33] --> klaus [SENDMESSAGE] /success
+[15:33] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[15:33] --> robin [SENDMESSAGE] *** klaus entered the room <default> ***
+[15:34] --> robin [SENDMESSAGE] #klaus#Hallo
+[15:34] --> klaus [SENDMESSAGE] #robin#robin: Hallo
+[15:34] --> klaus [SENDMESSAGE] #robin#asdf
+[15:34] --> robin [SENDMESSAGE] #klaus#klaus: asdf
+[15:34] <-- robin [DO_SENDMESSAGETOROOM] asdf
+[15:34] --> klaus [SENDMESSAGE] robin: asdf
+[15:34] --> robin [SENDMESSAGE] asdf
+[15:34] <-- klaus [DO_SENDMESSAGETOROOM] asdf
+[15:34] --> robin [SENDMESSAGE] klaus: asdf
+[15:34] --> klaus [SENDMESSAGE] asdf
+[15:34] --> robin [SENDMESSAGE] /quitFromServer
+[15:34] --> klaus [SENDMESSAGE] /quitFromServer
+[15:34] <-- robin [DO_QUIT]
+[15:34] Server socket closed.

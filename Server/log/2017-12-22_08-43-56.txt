@@ -1,0 +1,32 @@
+[8:44] Server socket started on port 1234.
+[8:44] [NEW_USER] robin
+[8:44] --> robin [SENDMESSAGE] /success
+[8:44] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[8:44] <-- robin [DO_CHANGEROOM] <default> to Musiker
+[8:44] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[8:44] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Musiker' robin! ----------
+[8:44] --> robin [DONE_CHANGEROOM] Musiker
+[8:44] <-- robin [DO_CHANGEROOM] Musiker to Fuck It
+[8:44] --> robin [SENDMESSAGE] ---------- You left the room 'Musiker'. -----------
+[8:44] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Fuck It' robin! ----------
+[8:44] --> robin [DONE_CHANGEROOM] Fuck It
+[8:44] [NEW_USER] klaus
+[8:44] --> klaus [SENDMESSAGE] /success
+[8:44] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[8:44] [DO_WARNUSER] It]
+[8:44] [DONE_WARNUSER] It]
+[8:44] [DO_WARNUSER] It]
+[8:44] [DONE_WARNUSER] It]
+[8:45] [DO_WARNUSER] klaus
+[8:45] --> klaus [SENDMESSAGE] *** Hallo ***
+[8:45] [DONE_WARNUSER] klaus
+[8:45] <-- robin [DO_CHANGEROOM] Fuck It to Programming
+[8:45] --> robin [SENDMESSAGE] ---------- You left the room 'Fuck It'. -----------
+[8:45] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Programming' robin! ----------
+[8:45] --> robin [DONE_CHANGEROOM] Programming
+[8:45] [DO_WARNUSER] robin
+[8:45] --> robin [SENDMESSAGE] *** asfg ***
+[8:45] [DONE_WARNUSER] robin
+[8:45] --> robin [SENDMESSAGE] /quitFromServer
+[8:45] --> klaus [SENDMESSAGE] /quitFromServer
+[8:45] Server socket closed.

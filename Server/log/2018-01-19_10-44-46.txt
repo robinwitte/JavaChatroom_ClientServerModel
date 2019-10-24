@@ -1,0 +1,25 @@
+[10:44] Server socket started on port 1234.
+[10:44] [NEW_USER] robin
+[10:44] --> robin [SENDMESSAGE] /success
+[10:44] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[10:45] --> Klaus [SENDMESSAGE] Wrong username or password.
+[10:45] [NEW_USER] klaus
+[10:45] --> klaus [SENDMESSAGE] /success
+[10:45] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[10:45] --> robin [SENDMESSAGE] *** klaus entered the room <default> ***
+[10:45] <-- klaus [DO_SENDMESSAGETOROOM] hallo
+[10:45] --> robin [SENDMESSAGE] klaus: hallo
+[10:45] --> klaus [SENDMESSAGE] hallo
+[10:45] <-- klaus [DO_SENDMESSAGETOROOM] \quit
+[10:45] --> robin [SENDMESSAGE] klaus: \quit
+[10:45] --> klaus [SENDMESSAGE] \quit
+[10:45] <-- klaus [DO_QUIT]
+[10:45] --> robin [SENDMESSAGE] *** klaus is leaving the room <default> ***
+[10:45] --> klaus [SENDMESSAGE] *** Bye klaus ***
+[10:45] [USER_LEAVE] klaus
+[10:45] --> klaus [SENDMESSAGE] /quit
+[10:54] <-- robin [DO_QUIT]
+[10:54] --> robin [SENDMESSAGE] *** Bye robin ***
+[10:54] [USER_LEAVE] robin
+[10:54] --> robin [SENDMESSAGE] /quit
+[10:54] Server socket closed.

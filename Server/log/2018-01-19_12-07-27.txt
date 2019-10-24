@@ -1,0 +1,21 @@
+[12:07] Server socket started on port 1234.
+[12:07] [NEW_USER] robin
+[12:07] --> robin [SENDMESSAGE] /success
+[12:07] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[12:07] [NEW_USER] klaus
+[12:07] --> klaus [SENDMESSAGE] /success
+[12:07] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[12:07] --> robin [SENDMESSAGE] *** klaus entered the room <default> ***
+[12:07] --> klaus [SENDMESSAGE] #robin#asdfg
+[12:07] --> robin [SENDMESSAGE] #klaus#klaus: asdfg
+[12:07] --> robin [SENDMESSAGE] #klaus#klaus: /prvquit
+[12:07] <-- klaus [DO_QUIT]
+[12:07] --> robin [SENDMESSAGE] *** klaus is leaving the room <default> ***
+[12:07] --> klaus [SENDMESSAGE] *** Bye klaus ***
+[12:07] [USER_LEAVE] klaus
+[12:07] --> klaus [SENDMESSAGE] /quit
+[12:08] <-- robin [DO_QUIT]
+[12:08] --> robin [SENDMESSAGE] *** Bye robin ***
+[12:08] [USER_LEAVE] robin
+[12:08] --> robin [SENDMESSAGE] /quit
+[12:08] Server socket closed.

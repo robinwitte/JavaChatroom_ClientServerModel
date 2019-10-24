@@ -1,0 +1,36 @@
+[11:21] Server socket started on port 1234.
+[11:21] --> robin [SENDMESSAGE] Wrong username or password.
+[11:21] [NEW_USER] robin
+[11:21] --> robin [SENDMESSAGE] /success
+[11:21] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[11:21] [NEW_USER] klaus
+[11:21] --> klaus [SENDMESSAGE] /success
+[11:21] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[11:21] --> robin [SENDMESSAGE] *** klaus entered the room <default> ***
+[11:21] --> klaus [SENDMESSAGE] #robin#Hallo
+[11:21] --> robin [SENDMESSAGE] #klaus#klaus: Hallo
+[11:21] --> robin [SENDMESSAGE] #klaus#Hallo
+[11:21] --> klaus [SENDMESSAGE] #robin#robin: Hallo
+[11:21] --> robin [SENDMESSAGE] #klaus#Juhu
+[11:21] --> klaus [SENDMESSAGE] #robin#robin: Juhu
+[11:22] --> klaus [SENDMESSAGE] #robin#Was geht
+[11:22] --> robin [SENDMESSAGE] #klaus#klaus: Was geht
+[11:22] <-- robin [DO_SENDMESSAGETOROOM] Hallo
+[11:22] --> klaus [SENDMESSAGE] robin: Hallo
+[11:22] --> robin [SENDMESSAGE] Hallo
+[11:22] <-- robin [DO_SENDMESSAGETOROOM] JUHU
+[11:22] --> klaus [SENDMESSAGE] robin: JUHU
+[11:22] --> robin [SENDMESSAGE] JUHU
+[11:22] <-- klaus [DO_SENDMESSAGETOROOM] Yeah
+[11:22] --> robin [SENDMESSAGE] klaus: Yeah
+[11:22] --> klaus [SENDMESSAGE] Yeah
+[11:23] <-- robin [DO_QUIT]
+[11:23] --> klaus [SENDMESSAGE] *** robin is leaving the room <default> ***
+[11:23] --> robin [SENDMESSAGE] *** Bye robin ***
+[11:23] [USER_LEAVE] robin
+[11:23] --> robin [SENDMESSAGE] /quit
+[11:23] <-- klaus [DO_QUIT]
+[11:23] --> klaus [SENDMESSAGE] *** Bye klaus ***
+[11:23] [USER_LEAVE] klaus
+[11:23] --> klaus [SENDMESSAGE] /quit
+[11:23] Server socket closed.

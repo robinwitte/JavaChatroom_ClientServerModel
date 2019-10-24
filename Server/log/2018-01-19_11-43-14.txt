@@ -1,0 +1,15 @@
+[11:43] Server socket started on port 1234.
+[11:43] [NEW_USER] robin
+[11:43] --> robin [SENDMESSAGE] /success
+[11:43] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[11:43] [NEW_USER] klaus
+[11:43] --> klaus [SENDMESSAGE] /success
+[11:43] --> klaus [SENDMESSAGE] ---------- Welcome to the room '<default>' klaus! ----------
+[11:43] --> robin [SENDMESSAGE] *** klaus entered the room <default> ***
+[11:43] --> klaus [SENDMESSAGE] #robin#*** Welcome to a private Chat with klaus ***
+[11:43] --> robin [SENDMESSAGE] #klaus#klaus: *** Welcome to a private Chat with klaus ***
+[11:47] --> robin [SENDMESSAGE] You are logged in already.
+[11:47] --> robin [SENDMESSAGE] /quit
+[11:47] --> robin [SENDMESSAGE] /quitFromServer
+[11:47] --> klaus [SENDMESSAGE] /quitFromServer
+[11:47] Server socket closed.

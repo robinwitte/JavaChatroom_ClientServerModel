@@ -1,0 +1,33 @@
+[15:52] Server socket started on port 1234.
+[15:52] [NEW_USER] robin
+[15:52] --> robin [SENDMESSAGE] /success
+[15:52] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[15:52] <-- robin [DO_CHANGEROOM] <default> to Uni-Jena
+[15:52] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[15:52] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Uni-Jena' robin! ----------
+[15:52] --> robin [DONE_CHANGEROOM] Uni-Jena
+[15:52] [DO_DELETEROOM] Uni-Jena
+[15:52] --> robin [SENDMESSAGE] *** The server closed the room. You will be transfered to the default Room ***
+[15:52] --> robin [SENDMESSAGE] /roomClosed
+[15:52] [DONE_DELETEROOM] Uni-Jena
+[15:52] <-- robin [DO_CHANGEROOM] Uni-Jena to <default>
+[15:52] --> robin [SENDMESSAGE] ---------- Welcome to the room '<default>' robin! ----------
+[15:52] --> robin [DONE_CHANGEROOM] <default>
+[15:52] <-- robin [DO_CHANGEROOM] <default> to Fuck It
+[15:52] --> robin [SENDMESSAGE] ---------- You left the room '<default>'. -----------
+[15:52] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Fuck It' robin! ----------
+[15:52] --> robin [DONE_CHANGEROOM] Fuck It
+[15:52] [DO_RENAMEROOM] Fuck It to Hallo
+[15:52] --> robin [SENDMESSAGE] *** The server renamed the room to 'Hallo' ***
+[15:52] --> robin [SENDMESSAGE] /roomRenamed
+[15:52] --> robin [SENDMESSAGE] Hallo
+[15:52] [DONE_RENAMEROOM] Fuck It to Hallo
+[15:53] <-- robin [DO_CHANGEROOM] Hallo to Informatik
+[15:53] --> robin [SENDMESSAGE] ---------- You left the room 'Hallo'. -----------
+[15:53] --> robin [SENDMESSAGE] ---------- Welcome to the room 'Informatik' robin! ----------
+[15:53] --> robin [DONE_CHANGEROOM] Informatik
+[15:53] <-- robin [DO_QUIT]
+[15:53] --> robin [SENDMESSAGE] *** Bye robin ***
+[15:53] [USER_LEAVE] robin
+[15:53] --> robin [SENDMESSAGE] /quit
+[15:53] Server socket closed.
